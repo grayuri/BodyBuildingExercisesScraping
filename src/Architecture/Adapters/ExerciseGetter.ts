@@ -65,7 +65,7 @@ export class ExerciseGetter implements IExerciseGetter {
           muscleTargeted,
           pictureUrl: pictureUrls[(index * 2) + 1],
           equipmentType: equipmentTypes[index]
-        })
+        } as IExercise)
       }
     } 
     catch (error) {
