@@ -4,4 +4,6 @@ export interface IExercise {
   equipmentType: string
   pictureUrl: string
   slug: string
+  muscleTargetedSlug: string
+  equipmentTypeSlug: string
 }
